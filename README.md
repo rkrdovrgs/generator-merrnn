@@ -3,7 +3,7 @@ Generates skeleton project for Mongo, Express, React, ReactNative, Node
 
 ## Installation
 * `npm install -g yo`
-* `npm install -g generator-merrnn`
+* `npm install -g generator-merrnn@latest`
 
 ## Usage
 * Creates a new application using:
