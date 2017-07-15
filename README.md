@@ -7,7 +7,7 @@ Generates skeleton project for Mongo, Express, React, ReactNative, Node
 
 ## Usage
 * Creates a new application using:
-  * `yo merrn`
+  * `yo merrnn`
 
 * Change to the directory of your new app:
   * `cd <app_name>`
