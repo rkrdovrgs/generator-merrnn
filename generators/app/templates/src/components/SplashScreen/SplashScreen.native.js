@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-import icon from '../../../public/icon.png';
+//import icon from '../../../public/icon.png';
 import { NavigationActions } from 'react-navigation';
 
 class SplashScreen extends Component {
@@ -12,7 +12,8 @@ class SplashScreen extends Component {
         return (
 
             <View style={styles.container}>
-                <Image source={icon} style={{ height: 100, width: 100 }} />
+                <Text>MERRnN</Text>
+                {/*<Image source={icon} style={{ height: 100, width: 100 }} />*/}
             </View>
 
         )

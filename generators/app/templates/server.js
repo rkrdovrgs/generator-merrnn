@@ -33,7 +33,9 @@ app.use(function (req, res) {
 });
 
 // Syncronyze database
-seed.sync();
+// @todo: set to true to seed your database with your db/data.json
+//        if so, database collections will be dropped everytime the serer restarts
+seed.sync(false);
 
 // -------------------------------------------------
 
