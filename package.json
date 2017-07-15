@@ -1,0 +1,13 @@
+{
+  "name": "generator-merrnn",
+  "version": "0.1.0",
+  "description": "merrnn generators",
+  "author": "rkrdo.vrgs@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "files": [
+    "generators"
+  ]
+}
