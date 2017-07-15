@@ -3,6 +3,7 @@ import axios from 'axios';
 import config from '../../config.base';
 
 //@todo: Add route to App.dom.js
+//import <%=options.componentName%> from './src/components/<%=options.componentName%>/<%=options.componentName%>.dom';
 //<Route exact path="/<%=options.collectionName%>/create" component={<%=options.componentName%>} />
 
 class <%=options.componentName%> extends Component {

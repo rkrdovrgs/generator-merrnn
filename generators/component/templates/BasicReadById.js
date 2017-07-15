@@ -3,6 +3,7 @@ import axios from 'axios';
 import config from '../../config.base';
 
 //@todo: Add route to App.dom.js
+//import <%=options.componentName%> from './src/components/<%=options.componentName%>/<%=options.componentName%>.dom';
 //<Route exact path="/<%=options.collectionName%>/details/:id" component={<%=options.componentName%>} />
 
 class <%=options.componentName%> extends Component {
@@ -36,7 +37,6 @@ class <%=options.componentName%> extends Component {
                     <div className='col col-xs-12'>
                         <label>Name:</label>
                         {this.state.name}
-                        />
                     </div>
                     <div className='col col-xs-12'>
                         <label>Age:</label>
