@@ -1,4 +1,4 @@
-# generator-merrnn
+# MERRnN Generator
 Generates skeleton project for Mongo, Express, React, ReactNative, Node
 
 ## Installation
