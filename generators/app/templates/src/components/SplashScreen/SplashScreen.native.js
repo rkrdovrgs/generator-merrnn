@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet, Text } from 'react-native';
 //import icon from '../../../public/icon.png';
 import { NavigationActions } from 'react-navigation';
 
@@ -12,7 +12,7 @@ class SplashScreen extends Component {
         return (
 
             <View style={styles.container}>
-                <Text>MERRnN</Text>
+                <Text style={styles.text}><%=options.appName%></Text>
                 {/*<Image source={icon} style={{ height: 100, width: 100 }} />*/}
             </View>
 
@@ -44,6 +44,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#238c59',
         position: 'relative',
         top: 0
+    },
+    text: {
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 25
     }
 });
 

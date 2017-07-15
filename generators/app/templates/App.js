@@ -13,7 +13,7 @@ export default App = StackNavigator(
     initialRouteName: 'Splash',
     //headerMode: 'screen',
     navigationOptions: {
-      title: '<%options.appName%>',
+      title: '<%=options.appName%>',
       headerStyle: {
         height: 65,
         backgroundColor: '#238c59',
